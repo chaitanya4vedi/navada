@@ -4,8 +4,8 @@ Navada is a fully responsive colorful-UI theme for Blogs.
 ## Demo
 Check the [Demo](https://navada-hugo.netlify.app/) hosted on Netlify 👍
 
-![](exampleSite/static/images/screenshot.png)
-![](exampleSite/static//images/tn.png)
+![](images/screenshot.png)
+![](images/tn.png)
 
 
 ## Installation
