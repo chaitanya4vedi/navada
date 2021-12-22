@@ -1,0 +1,215 @@
+body {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+}
+ main {
+     flex: 1;
+}
+ .max-800px {
+     max-width: 800px;
+}
+ .logo h1 {
+     font-family: 'Bangers';
+     letter-spacing: 0.2em;
+     font-size: 1.3em;
+     background-color: #d6a3fb;
+     color: black;
+     padding: 0px 20px;
+     border-radius: 10px;
+}
+ .navbar-menu {
+     font-family: 'Anton';
+     letter-spacing: 0.2em;
+     text-align: center;
+}
+ .nav-buttons h1 {
+     font-family: 'Bebas Neue';
+     background-color: #f9e79f ;
+     background-color: #fdd935 ;
+     color: #000000;
+     padding: 2.5px 20px;
+     border-radius: 10px;
+}
+ .nav-buttons h1:hover {
+     background-color: #f9e79f ;
+     color: #000000;
+     padding: 0px 20px;
+     border-radius: 10px;
+}
+ .index-header {
+     text-align:center;
+     font-family: 'Bungee Shade';
+     background-color: #bcfd4c;
+     color: #6e6e6e;
+     border-radius: 10px;
+     font-size: 3em;
+}
+ .contact-h1 {
+     font-family: "Anton";
+     background-color: #1a2238;
+     font-size: 2.5em;
+}
+ .contact-hero-link {
+     font-family: "Anton";
+     color: yellow;
+     background-color: #1a2238;
+}
+ .about-title-h1 {
+     font-family: "Anton";
+     font-size: 2.5em;
+     background-color: #1a2238;
+}
+ .about-title-h2 {
+     font-family: "Anton";
+     font-size: 1.5em;
+     background-color: #1a2238;
+}
+ .section {
+     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     border-radius: 10px;
+     margin: 10px;
+}
+ .blog-title {
+     font-family: 'Caveat Brush';
+     font-size: 2em;
+     color: floralwhite;
+     text-align: center;
+}
+ .title-image-index {
+     padding: 2em 0em;
+     border-radius: 50%;
+}
+ .author-image {
+     object-fit: cover;
+     border-radius: 50%;
+     width: 62px;
+     height: 62px;
+}
+ .is-vcentered a {
+     color: floralwhite;
+     background-color: #1a2238;
+     padding: 5px;
+     border-radius: 10px;
+}
+ .is-vcentered {
+     color: floralwhite;
+     font-family: "Patrick Hand";
+     font-weight: bold;
+}
+ .is-vcentered a:hover {
+     color: #1a2238;
+     background-color: floralwhite;
+}
+ .tag:not(body).is-primary {
+     background-color: #bd1e51;
+     color: floralwhite;
+}
+ .tag {
+     font-family: "Patrick Hand";
+}
+ .content {
+     background-color: WhiteSmoke;
+     padding: 25px 25px;
+     border-radius: 10px;
+     font-family: "JetBrains Mono";
+     font-size: 1em;
+     margin-bottom: 1em;
+}
+ .list-content {
+     background-color: transparent;
+     font-family: "JetBrains Mono";
+}
+ .categories-content {
+     background-color: transparent;
+}
+ .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+     font-family: "Caveat Brush";
+}
+ .list-content h1 {
+     font-family: "Anton";
+     color: floralwhite;
+     font-size: 3em;
+}
+ .categories-content h1 {
+     font-family: "Anton";
+     color: floralwhite;
+     font-size: 3em;
+}
+ .card-tag a {
+     font-family: "Caveat Brush";
+}
+ .pagination-link {
+     background-color: white;
+     font-family: "Anton";
+     color: black;
+     border: 2px solid black;
+}
+
+.narrow-background {
+     display: table;
+     padding: 0.1em;
+}
+ .map-responsive {
+     overflow: hidden;
+     padding-bottom: 100%;
+     position: relative;
+     height: 0;
+}
+ .map-responsive iframe {
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     position: absolute;
+}
+ .blog__navigateButtons {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .blog__navigate {
+     margin-bottom: 20px;
+}
+ .blog__navigate a {
+     font-family: "Patrick Hand";
+}
+ .blog__navigate button {
+     border: none;
+     outline: none;
+     background: rgb(88, 123, 240);
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 200px;
+     cursor: pointer;
+     transition: all 200ms;
+}
+ .blog__navigate button:hover {
+     transform: translateY(1.5);
+     background: rgb(43, 92, 226);
+}
+ .blog__navigate a {
+     color: #fff;
+}
+ #footer {
+     background: linear-gradient(to right, #fecd45, #c2e59c, #64b3f4);
+     padding: 3rem 1.5rem 6rem;
+     border-radius: 10px;
+     font-family: "JetBrains Mono";
+}
+ .footer-link {
+     border-radius: 10px;
+     padding: 10px 10px;
+     background-color: #2568fb;
+     font-size: 1.5em;
+     font-family: "Anton";
+     color: white;
+}
+ .footer-link:hover {
+     color: #2568fb;
+     background-color: floralwhite;
+}
+ 

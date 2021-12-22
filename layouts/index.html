@@ -1,0 +1,24 @@
+{{ define "main" }}
+    <div class="container max-800px">
+        <h1 class="title is-1 index-header narrow-background">
+            {{ .Title }}
+        </h1>
+        {{ with .Params.herotext }}
+        <h2 class="title subtitle is-4 has-background-primary narrow-background">
+            {{ . }}
+        </h2>
+        {{ end }}
+    </div>
+<div class="index-section">
+    <div class="container max-800px">
+      {{ with .Params.images }}
+  <figure class="title-image-index">
+    <img src="{{ index . 0 }}" alt="">
+  </figure>
+{{ end }}
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,78 @@
+{{ define "main" }}
+<style>
+    @media screen and (max-width: 768px) {
+        li>a>span:not(.icon) {
+            visibility: hidden;
+            position: absolute;
+        }
+        nav.tabs li {
+            -webkit-box-flex: 0;
+            -ms-flex-positive: 0;
+            flex-grow: 0;
+            -ms-flex-negative: 1;
+            flex-shrink: 1;
+        }
+        .tabs .icon {
+            margin-left: 0.5em;
+        }
+    }
+</style>
+<div class="hero is-dark is-medium" {{ with .Params.heroimage }}
+    style="background: url({{ . }}) center center; background-size:cover;" {{ end }}>
+    <div class="hero-head">
+        <div class="container">
+            <h1 class="is-2 contact-h1 narrow-background">
+                {{ .Title }}
+            </h1>
+            {{ with .Params.herotext }}
+            <h2 class="title subtitle is-4 narrow-background">
+                {{ . }}
+            </h2>
+            {{ end }}
+        </div>
+    </div>
+    <div class="hero-body"></div>
+    <div class="hero-foot">
+    {{ with .Params.buttons }}
+    <nav class="tabs">
+        <div class="container">
+            <ul>
+                {{ range . }}
+                <li classs="">
+                    <a class="contact-hero-link" {{ with .id }}id="{{ . }}" {{ end }}
+                        {{ with .href }}href="{{ . | safeURL }}" {{ end }}>
+                        <span class="icon"><i class="{{ .icon }}" aria-hidden="true"></i></span>
+                        <span>{{ .name }}</span>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </nav>
+    {{ end }}
+</div>
+</div>
+
+
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <div class="content">
+                    {{ .Content }}
+                </div>
+            </div>
+            {{ with .Params.map }}
+            <div class="column is-one-third">
+                <div class="map-responsive">
+                    <iframe
+                        src="https://maps.google.com/maps?hl=en&amp;q={{ . | htmlEscape }}&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

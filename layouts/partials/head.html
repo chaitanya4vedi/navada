@@ -1,0 +1,29 @@
+
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="icon" href="/images/favicon.ico" type="image/gif" sizes="32x32"> 
+   <title>{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
+   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }}">
+   <link rel="canonical" href="{{ .Permalink }}" />
+   {{ template "_internal/opengraph.html" . }}
+   {{ template "_internal/twitter_cards.html" . }}
+   {{ if not (in (string .Site.BaseURL) "localhost") }}
+   {{ template "_internal/google_analytics_async.html" . }}
+   {{ end }}
+   <!-- Google Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bangers&family=Bebas+Neue&family=Bungee+Shade&family=Caveat+Brush&family=JetBrains+Mono&family=Love+Ya+Like+A+Sister&family=Open+Sans+Condensed:wght@300&family=Patrick+Hand&family=Roboto:wght@100&display=swap" rel="stylesheet">
+   <!--Bulma CDN-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+   <!--FontAwesome CDN-->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <!-- Local CSS-->
+   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
+   <!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+
