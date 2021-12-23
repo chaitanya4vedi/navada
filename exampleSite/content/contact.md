@@ -12,7 +12,6 @@ buttons:
   id: open-modal
 map: Oodi, Helsinki
 form: https://docs.google.com/forms/d/e/1FAIpQLScJu093Bj9AS6ryW9KWgrbMx6vYZF2dxk_vlboINkKqfRU83A/viewform?embedded=true
-id: open-modal
 ---
 
 
