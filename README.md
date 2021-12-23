@@ -1,6 +1,8 @@
 # Navada - Hugo theme
 Navada is a fully responsive, colorful and attractive UI theme for Blogs and similar content.
 
+## Check the [Demo](https://navada-hugo.netlify.app/)
+
 ### Screenshots on Download page
 
 ![](images/Screenshot-Index-Full.png)
