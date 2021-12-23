@@ -2,8 +2,7 @@
 Navada is a fully responsive, colorful and attractive UI theme for Blogs and similar content.
 
 ## Screenshots
-![](images/screenshot.png)
-![](images/tn.png)
+
 ## Index page
 ![](images/Screenshot-Index-Full.png)
 ## Blog page
@@ -53,7 +52,7 @@ categories:
 ---
 ```
 ### Images
-Navada is a fully responsive, colorful and attractive UI theme for Blogs and similar contentThere are two ways to create a list in YAML so you can use either one of these options:
+The images parameter needs to be a list. There are two ways to create a list in YAML so you can use either one of these options:
 
 #### Option 1
 ```
@@ -72,13 +71,15 @@ I have lots of stuff in my mind to add to this theme. Some of the features i wou
 - Multi Author Support
 - Cache busting for CSS
 
-If you think i have missded something or you have an idea or suggestion that you wanna add, feel free to raise an issue. I am open to improvements for this theme. I would be more than glad to hear from you or take your help. Thank you!
+If you think i have missded something or you have an idea or suggestion that you want to add, feel free to raise an issue. I am open to improvements for this theme. I will be more than glad to hear from you or take your help. Thank you!
 
 ## Credits
 Thanks to [Janne Kemppainen](https://twitter.com/pakstech) for the wonderful posts on hugo themes.
 
 ----
 
+## Support
+Give a 🌟 if you like this project!
 If you liked my work please consider supporting me on [BuyMeACoffee](https://www.buymeacoffee.com/chaitanya4vedi)
 
 <a href="https://www.buymeacoffee.com/chaitanya4vedi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=chaitanya4vedi&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
