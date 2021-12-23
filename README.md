@@ -5,17 +5,17 @@ Navada is a fully responsive, colorful and attractive UI theme for Blogs and sim
 
 ### Screenshots on Download page
 
-#### Index
-<img src="images/Screenshot-Index-Full.png" alt="Index page">
+### Desktop View
 
-#### Blog
-<img src="images/Screenshot-Blog-Half.png" alt="Blog page">
+| Index Page                                            | Blog Page                                            |
+|-------------------------------------------------------|------------------------------------------------------|
+| ![Navada Theme Desktop View](images/Screenshot-Index-Full.png) | ![Navada Theme Desktop View](images/Screenshot-Blog-Half.png) |
 
 ### Mobile View
 
-| Light Mode                                           | Dark Mode                                                  |
-|------------------------------------------------------|------------------------------------------------------------|
-| ![Navada Theme Mobile View](images/Mobile-Index.jpg) | ![Clarity Hugo Theme desktop dark](images/Mobile-Blog.jpg) |
+| Index Page                                           | Blog Page                                           |
+|------------------------------------------------------|-----------------------------------------------------|
+| ![Navada Theme Mobile View](images/Mobile-Index.jpg) | ![Navada Theme Mobile View](images/Mobile-Blog.jpg) |
 
 
 #### Footer
