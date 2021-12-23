@@ -11,14 +11,26 @@ Navada is a fully responsive, colorful and attractive UI theme for Blogs and sim
 #### Blog
 <img src="images/Screenshot-Blog-Half.png" alt="Blog page">
 
-### Mobile View
-
-<img src="images/Mobile-Index.jpg" alt="Index page mobile">
-
-<img src="images/Mobile-Blog.jpg" alt="Blog page mobile">
-
 #### Footer
 <img src="images/Screenshot-Blog-Footer.png" alt="Footer">
+
+### Mobile View
+
+<table>
+<thead>
+<tr>Index</tr>
+<tr>Blog</tr>
+</thead>
+<tbody>
+<tr><img src="images/Mobile-Index.jpg" alt="Index page mobile" width="50%" height="50%"></tr>
+<tr><img src="images/Mobile-Blog.jpg" alt="Blog page mobile" width="50%" height="50%"></tr>
+</tbody>
+</table>
+
+
+
+
+
 
 ## Installation
 In your Hugo website directory, go to themes folder by `$ cd themes` command. Then clone this repo with the `git clone` command.
