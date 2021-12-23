@@ -65,13 +65,13 @@ Note that indentation matters here.
 ```
 images: ["/images/blog/03/fields.jpg"]
 ```
-# Open to Suggestions and Improvements
+## Open to Suggestions and Improvements
 I have lots of stuff in my mind to add to this theme. Some of the features i would like to include are -
 - Comments
 - Multi Author Support
 - Cache busting for CSS
 
-If you think i have missded something or you have an idea or suggestion that you want to add, feel free to raise an issue. I am open to improvements for this theme. I will be more than glad to hear from you or take your help. Thank you!
+If you think i have missed something or you have an idea or suggestion that you want to add, feel free to raise an issue. I am open to improvements for this theme. I will be more than glad to hear from you or take your help. Thank you!
 
 ## Credits
 Thanks to [Janne Kemppainen](https://twitter.com/pakstech) for the wonderful posts on hugo themes.
@@ -79,7 +79,7 @@ Thanks to [Janne Kemppainen](https://twitter.com/pakstech) for the wonderful pos
 ----
 
 ## Support
-Give a 🌟 if you like this project!
+Give a 🌟 if you like this project!<br>
 If you liked my work please consider supporting me on [BuyMeACoffee](https://www.buymeacoffee.com/chaitanya4vedi)
 
 <a href="https://www.buymeacoffee.com/chaitanya4vedi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=chaitanya4vedi&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
