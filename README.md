@@ -1,13 +1,12 @@
 # Navada - Hugo theme
 Navada is a fully responsive, colorful and attractive UI theme for Blogs and similar content.
 
-## Screenshots
+### Screenshots on Download page
 
-## Index page
 ![](images/Screenshot-Index-Full.png)
-## Blog page
+
 ![](images/Screenshot-Blog-Half.png)
-## Footer
+
 ![](images/Screenshot-Blog-Footer.png)
 
 ## Installation
@@ -80,6 +79,7 @@ Thanks to [Janne Kemppainen](https://twitter.com/pakstech) for the wonderful pos
 
 ## Support
 Give a 🌟 if you like this project!<br>
+
 If you liked my work please consider supporting me on [BuyMeACoffee](https://www.buymeacoffee.com/chaitanya4vedi)
 
 <a href="https://www.buymeacoffee.com/chaitanya4vedi"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=chaitanya4vedi&button_colour=FF5F5F&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00"></a>
